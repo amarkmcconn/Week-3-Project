@@ -29,4 +29,8 @@ Test 6: "It should return the number 1 as beep and 2 as boop"
 Code: beepBoop(5);
 Expected Output: [0,"beep", "boop", 3, 4, 5]
 
+Test 7: "It should return the number 1 as beep and number 2 as boop and number 3 as Won't you be my neighbor?"
+Code: beepBoop(5);
+Expected Output: [0,"beep", "boop", "won't you be my neighbor?", 4, 5]
+
 ```
