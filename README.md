@@ -29,16 +29,18 @@ Test 7: "It should return the 3 as Won't you be my neighbor?"
 Code: beepBoop(5);
 Expected Output: ["0, beep,boop, won't you be my neighbor?, 4, 5"]
 
+// should I create a separate function to evaluate final string?
+// it would take up too many lines to enter all the combos that need to replaced with the words below. forEach loop? 
 Test 8 "It should return 'won't you be my neighbor?' if the number contains a 3 in it" 
-Code: beepBoop(5);
-Expected Output: [0,"beep", "boop", "won't you be my neighbor?", 4, 5]
+Code: beepBoop(13);
+Expected Output: [0,"beep", "boop", "won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10 ... "won't you be my neighbor?", 14, 15]
 
 Test 9 "It should return 'boop' if the number contains a 2 in it" 
-Code: beepBoop(5);
+Code: beepBoop(12);
 Expected Output: [0,"beep", "boop", "won't you be my neighbor?", 4, 5]
 
 Test 10 "It should return 'beep?' if the number contains a 1 in it" 
-Code: beepBoop(5);
+Code: beepBoop(11);
 Expected Output: [0,"beep", "boop", "won't you be my neighbor?", 4, 5]
 
 ```

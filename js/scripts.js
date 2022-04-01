@@ -26,9 +26,15 @@ function beepBoop(input) {
     const index2 = arrayBeep.indexOf(3)
     arrayBeep[index2] = "won't you be my neighbor?"
   } 
+  // let upWont = arrayBeep.filter(x => (x.includes("3")); 
+  //   console.log(upWont)
   const final = arrayBeep.toString();
   return final;  
-} 
+}  
+
+
+
+
 
 // UI Logic
 
