@@ -26,7 +26,9 @@ function beepBoop(input) {
     const index2 = arrayBeep.indexOf(3)
     arrayBeep[index2] = "won't you be my neighbor?"
   }  
-  console.log(arrayBeep) 
+  const final = arrayBeep.toString();
+  return final;
+  console.log(final)
 } 
 
 
