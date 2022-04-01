@@ -17,9 +17,11 @@ function beepBoop(input) {
   if (arrayBeep[1] === 1){
     const index = arrayBeep.indexOf(1)
     arrayBeep[index] = "beep"
-    } else if (arrayBeep[]) {
-
-    }
+  }
+  if (arrayBeep[2] === 2){
+    const index1 = arrayBeep.indexOf(2)
+    arrayBeep[index1] = "boop"
+  }  
   console.log(arrayBeep) 
 } 
 
