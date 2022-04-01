@@ -1,5 +1,5 @@
 function beepBoop(input) {
-  if (input === 0 ) {
+  if (Number.isInteger(input)) {
     return true
    } else {
     return false
