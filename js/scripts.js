@@ -33,6 +33,12 @@ function beepBoop(input) {
   return final;  
 }  
 
+// function matchString() {
+//   let string = beepBoop();
+//   let result = string.match(/3,13,23,30,31,32,33,34,35,36,37,38,39,43,53,63,73,83,93,103/i);
+//   document.write("output : " + result); 
+// } matchString();
+
 // UI Logic
 
 $(document).ready(function() {
@@ -46,4 +52,10 @@ $(document).ready(function() {
 
 
 
+
+// const three = [3,13,23,30,31,32,33,34,35,36,37,38,39,43,53,63,73,83,93,103]
+//   if (const final = const three)
+      
+// const two = [2,12,20,21,22,24,25,26,27,28,29,42,52,62,72,82,92,102,112,]
+// const one = [1,11,41,51,61,71,81,91,101,111,141,151] 
 
