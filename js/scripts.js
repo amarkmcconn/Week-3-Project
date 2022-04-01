@@ -1,7 +1,7 @@
 
 //Business Logic
 
-function arrayBeep(input) {
+function beepBoop(input) {
   let arrayBeep = []
   if (Number.isInteger(input) === 0) {
     return true
@@ -16,11 +16,11 @@ function arrayBeep(input) {
     }
   if (arrayBeep[1] === 1){
     const index = arrayBeep.indexOf(1)
-    arrayBeep[index] = "beep"
+    arrayBeep[index] = "beep!"
   }
   if (arrayBeep[2] === 2){
     const index1 = arrayBeep.indexOf(2)
-    arrayBeep[index1] = "boop"
+    arrayBeep[index1] = "boop!"
   }
   if (arrayBeep[3] === 3){
     const index2 = arrayBeep.indexOf(3)
@@ -30,4 +30,13 @@ function arrayBeep(input) {
   return final;  
 } 
 
+// UI Logic
 
+$(document).ready(function() {
+  $("form").submit((event)=>{
+    event.preventDefault();
+    const input = $("#sentence-input").val();
+    const beep = beepBoop(input);
+    $("#output").text(beep);
+  });
+});
