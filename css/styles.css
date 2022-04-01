@@ -1,0 +1,19 @@
+h6 {
+  font-style: italic
+}
+
+.card {
+  margin-top: 1rem;
+  text-align: center;
+  border: solid black;
+  padding: 1rem 1rem;
+  width: auto;
+}
+
+body {
+  background-color: bisque;
+}
+
+.jumbotron {
+  border: solid black;
+}
