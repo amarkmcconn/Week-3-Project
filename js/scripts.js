@@ -28,13 +28,10 @@ function beepBoop(input) {
   } 
   // let upWont = arrayBeep.filter(x => (x.includes("3")); 
   //   console.log(upWont)
+  // .forEach wouldn't show me result. filter?
   const final = arrayBeep.toString();
   return final;  
 }  
-
-
-
-
 
 // UI Logic
 
@@ -46,3 +43,7 @@ $(document).ready(function() {
     $("#output").text(beep);
   });
 });
+
+
+
+

@@ -1,4 +1,36 @@
+# _Mr. Roboger's Neighborhood_
+#### By _**Mark McConnell**_
+#### _A HTMl website using required JavaScript, jQuery and custom ccs. Requirements were outlined in Week 3 project_
+## Technologies Used
+* _HTML_
+* _JavaScript_
+* _jQuery_
+* _CSS_
+## Description
+_This is an HTML application that takes a users input and shows the output after hitting the submit button. The user inputs a number and the website outputs a sentece with numbers altered depending if a 1, 2 or 3 is in the number. The HTML application was created using parameters outlined in week 3 learning objectives_
+## Setup/Installation Requirements
+* _Fork this repository by clicking the fork button located near the top right hand corner of your web brower_
+* _Rename this repository to whatever suits your fancy. Open up the repository you just forked. Click settings and first option will be avaible to rename it!_
+* _Clone the repository to your computer. Right click on your desktop and click bash here and confirm you are in the deskop directory. use $ git clone https://github.com/amarkmcconn/Week-3-Project._
+* _After cloning the repository to your desktop. It will appear on your desktop as a folder named Week_3_Project. Click on the folder and you will have access to the whole project folder._
+* _After opening the Week-3-Project folder, it will contain all the files associated for this project._
+_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+## Known Bugs
+
+* _Currently working to alter any numbers above 10_
+
+
+## License
+
+_MIT. Please contact via email: mark.programming1@gmail.com should you have any questions, comments, or concerns._
+
+Copyright (c) _2022_ _Mark McConnell_
+
+
+
+
 ```javascript
+Business Logic Testing
 Describe: beepBoop()
 
 Test 1: "It should recognize the number 0"
@@ -31,12 +63,12 @@ Expected Output: ["0, beep,boop, won't you be my neighbor?, 4, 5"]
 
 // should I create a separate function to evaluate final string?
 // it would take up too many lines to enter all the combos that need to replaced with the words below. forEach loop? 
-Test 8 "It should return 'won't you be my neighbor?' if the number contains a 3 in it" 
+Test 8 "It should return all the numbers that contain a 3 in it" 
 Code: beepBoop(13);
-Expected Output: [0,"beep", "boop", "won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10 ... "won't you be my neighbor?", 14, 15]
+Expected Output: [0,3,13]
 
 Test 9 "It should return 'boop' if the number contains a 2 in it" 
-Code: beepBoop(12);
+Code: beepBoop(3);
 Expected Output: [0,"beep", "boop", "won't you be my neighbor?", 4, 5]
 
 Test 10 "It should return 'beep?' if the number contains a 1 in it" 
