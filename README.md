@@ -64,7 +64,7 @@ Expected Output: ["0, beep,boop, won't you be my neighbor?, 4, 5"]
 // should I create a separate function to evaluate final string?
 // it would take up too many lines to enter all the combos that need to replaced with the words below. forEach loop? 
 Test 8 "It should return all the numbers that contain a 3 in it" 
-Code: beepBoop(13);
+Code: c
 Expected Output: [0,3,13]
 
 Test 9 "It should return 'boop' if the number contains a 2 in it" 
