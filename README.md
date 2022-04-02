@@ -11,7 +11,7 @@ _This is an HTML application that takes a users input and shows the output after
 ## Setup/Installation Requirements
 * _Fork this repository by clicking the fork button located near the top right-hand corner of your web brower_
 * _Rename this repository to whatever suits your fancy. Open up the repository you just forked. Click settings and the first option will be available to rename it!_
-* _Clone the repository to your computer. Right-click on your desktop and click bash here and confirm you are in the desktop directory. use $ git clone https://github.com/amarkmcconn/Week-3-Project._
+* _Clone the repository to your computer. Right-click on your desktop and click git bash here and confirm you are in the desktop directory. use $ git clone https://github.com/amarkmcconn/Week-3-Project._
 * _After cloning the repository to your desktop. It will appear on your desktop as a folder named Week_3_Project. Click on the folder and you will have access to the whole project folder._
 * _After opening the Week-3-Project folder, it will contain all the files associated for this project._
 
