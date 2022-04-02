@@ -7,17 +7,17 @@
 * _jQuery_
 * _CSS_
 ## Description
-_This is an HTML application that takes a users input and shows the output after hitting the submit button. The user inputs a number and the website outputs a sentece with numbers altered depending if a 1, 2 or 3 is in the number. The HTML application was created using parameters outlined in week 3 learning objectives_
+_This is an HTML application that takes a users input and shows the output after hitting the submit button. The user inputs a number and the website outputs a sentence with numbers altered depending if a one, two or three is in the number. The HTML application is created using parameters outlined in week three learning objectives_
 ## Setup/Installation Requirements
-* _Fork this repository by clicking the fork button located near the top right hand corner of your web brower_
-* _Rename this repository to whatever suits your fancy. Open up the repository you just forked. Click settings and first option will be avaible to rename it!_
-* _Clone the repository to your computer. Right click on your desktop and click bash here and confirm you are in the deskop directory. use $ git clone https://github.com/amarkmcconn/Week-3-Project._
+* _Fork this repository by clicking the fork button located near the top right-hand corner of your web brower_
+* _Rename this repository to whatever suits your fancy. Open up the repository you just forked. Click settings and the first option will be available to rename it!_
+* _Clone the repository to your computer. Right-click on your desktop and click bash here and confirm you are in the desktop directory. use $ git clone https://github.com/amarkmcconn/Week-3-Project._
 * _After cloning the repository to your desktop. It will appear on your desktop as a folder named Week_3_Project. Click on the folder and you will have access to the whole project folder._
 * _After opening the Week-3-Project folder, it will contain all the files associated for this project._
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+
 ## Known Bugs
 
-* _Currently working to alter any numbers above 10_
+* _Currently working to alter any numbers above ten_
 
 
 ## License
