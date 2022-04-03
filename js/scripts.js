@@ -10,23 +10,24 @@ function beepBoop(input) {
     for (let i = 0; i <= input; i++) {
       newNumber++;
       arrayBeep.push(newNumber)
-      if (arrayBeep.indexOf("3")) {
+      if (i === 3 || i === 13 || i === 23 || i === 30 || i === 31 || i === 32 || i === 33 || i === 34 || i === 35 || i === 36 || i === 37 || i === 38 || i === 39 || i === 43 || i === 53 || i === 63 || i === 73 || i === 83 || i === 93) {
         arrayBeep[i] = "won't you be my neighbor"
-        // Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax?
-        // I need to able to say if the current element with index of 3 change that specific element to the text. 
+      } else if (i === 2 || i === 12 || i === 20 || i === 21 || i == 22 || i !== 24 || i !== 25 || i !== 26 || i !== 27 || i !== 28 || i !== 29 || i !== 42 || i !== 52 || i !== 62 || i !== 53 || i !== 72 || i !== 82 || i !== 92|| i !== 93) {
+        arrayBeep[i] = "boop"
+      } else {
+
       }
     }
-    } else {
-    return false  
-    }
-    
-
-  console.log(arrayBeep)   
+  } else {
+    return false;  
+  }
+  const final = arrayBeep.toString();
+  return final;   
 }
 
 
   // if (arrayBeep.indexOf("3")){
-  //     let index2 = arrayBeep.indexOf(3)
+  //     let index2 = arrayBeep.indexOf(3")
   //     arrayBeep[index2] = "won't you be my neighbor?"
   //   }
   // if (arrayBeep[2] === 2){
@@ -40,8 +41,7 @@ function beepBoop(input) {
   
   
   
-//   const final = arrayBeep.toString();
-//   return final;  
+ 
 // }  
 
 // for the code above this targets a specific index of the array and updates that value. Typing it all out would be inefficient. I believe the correct manner would be using the for Loop above as its being created. 
@@ -99,3 +99,12 @@ $(document).ready(function() {
 //     return el;
 //   });
 // }
+
+
+// if (i.indexOf("3")) {
+//   arrayBeep[i] = "won't you be my neighbor"
+//   Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax?
+//   I need to able to say if the current element with index of 3 change that specific element to the text. 
+// }
+// Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax?
+        // I need to able to say if the current element with index of 3 change that specific element to the text. 
