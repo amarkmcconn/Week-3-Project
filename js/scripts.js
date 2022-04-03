@@ -13,7 +13,7 @@ function beepBoop(input) {
       if (i.indexOf("3")) {
         arrayBeep[i] = "won't you be my neighbor"
 //   Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax?
-      } else if (i.indexOf("3")) {
+      } else if (i.indexOf("2")) {
         arrayBeep[i] = 'boop'
       }
     }
@@ -36,12 +36,6 @@ function beepBoop(input) {
   return final;     
 }
 
-
-
-  
-  
-  
- 
 // }  
 
 // for the code above this targets a specific index of the array and updates that value. Typing it all out would be inefficient. I believe the correct manner would be using the for Loop above as its being created. 
