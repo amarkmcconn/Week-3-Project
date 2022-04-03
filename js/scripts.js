@@ -10,19 +10,16 @@ function beepBoop(input) {
     for (let i = 0; i <= input; i++) {
       newNumber++;
       arrayBeep.push(newNumber)
-      if (i === 3 || i === 13 || i === 23 || i === 30 || i === 31 || i === 32 || i === 33 || i === 34 || i === 35 || i === 36 || i === 37 || i === 38 || i === 39 || i === 43 || i === 53 || i === 63 || i === 73 || i === 83 || i === 93) {
+      if (i.indexOf("3")) {
         arrayBeep[i] = "won't you be my neighbor"
-      } else if (i === 2 || i === 12 || i === 20 || i === 21 || i == 22 || i !== 24 || i !== 25 || i !== 26 || i !== 27 || i !== 28 || i !== 29 || i !== 42 || i !== 52 || i !== 62 || i !== 53 || i !== 72 || i !== 82 || i !== 92|| i !== 93) {
-        arrayBeep[i] = "boop"
-      } else {
-
+//   Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax?
       }
     }
   } else {
     return false;  
   }
   const final = arrayBeep.toString();
-  return final;   
+  return final;     
 }
 
 
@@ -101,9 +98,7 @@ $(document).ready(function() {
 // }
 
 
-// if (i.indexOf("3")) {
-//   arrayBeep[i] = "won't you be my neighbor"
-//   Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax?
+
 //   I need to able to say if the current element with index of 3 change that specific element to the text. 
 // }
 // Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax?
