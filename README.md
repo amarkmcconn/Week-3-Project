@@ -18,6 +18,7 @@ _This is an HTML application that takes a users input and shows the output after
 ## Known Bugs
 
 * _Currently working to alter any numbers above ten_
+* _If Go Live is used the website will not return an output_
 
 
 ## License
