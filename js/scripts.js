@@ -12,7 +12,8 @@ function beepBoop(input) {
       arrayBeep.push(newNumber)
       if ((i).indexOf("3")) {
         arrayBeep[i] = "won't you be my neighbor"
-        // Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax? 
+        // Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax?
+        // I need to able to say if the current element with index of 3 change that specific element to the text. 
       }
     }
     } else {
