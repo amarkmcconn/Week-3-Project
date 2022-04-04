@@ -11,10 +11,10 @@ function beepBoop(input) {
       newNumber++;
       arrayBeep.push(newNumber)
       if (i.indexOf("3")) {
-        arrayBeep[i] = "won't you be my neighbor"
+        arrayBeep[i] = "won't you be my neighbor?"
 //   Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax?
       } else if (i.indexOf("2")) {
-        arrayBeep[i] = 'boop'
+        arrayBeep[i] = 'boop!'
       }
     }
   } else {
@@ -86,14 +86,15 @@ $(document).ready(function() {
 //     return el;
 //   });
 // }
-// function change(arrayBeep, 2,'boop') {
+// const wont = arrayBeep
+// function change(wont, number, word) {
 //   return arrayBeep.map(el => {
-//     if (String(el).indexOf("2")) 
-//     return "boop";
+//     if (String(el).indexOf("number")) 
+//     return word;
 //     return el;
 //   });
 // }
-
+// console.log(change(arrayBeep, 3, "wont you be my neighbor"))
 
 
 //   I need to able to say if the current element with index of 3 change that specific element to the text. 
