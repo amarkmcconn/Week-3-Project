@@ -13,9 +13,9 @@ function beepBoop(input) {
         if ((i + " ").indexOf("3") !== -1) {
           arrayBeep[i] = "won't you be my neighbor?"
         // all elements are now the above!  
-        } else if ((i + " ").indexOf("2")) {
+        } else if ((i + " ").indexOf("2") !== -1) {
            arrayBeep[i] = "boop!"
-        } else if ((i + " ").indexOf("1")){
+        } else if ((i + " ").indexOf("1") !== -1){
           arrayBeep[i] = "beep!"
         } else {
 
