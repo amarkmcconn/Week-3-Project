@@ -10,32 +10,21 @@ function beepBoop(input) {
     for (let i = 0; i <= input; i++) {
       newNumber++;
       arrayBeep.push(newNumber)
-      if (i.indexOf("3")) {
-        arrayBeep[i] = "won't you be my neighbor?"
-//   Uncaught TypeError: i.indexOf is not a function at beep Boop when I run this in the console. syntax?
-      } else if (i.indexOf("2")) {
-        arrayBeep[i] = 'boop!'
-      }
-    }
-  } else {
-    return false;  
-  }  
-// if (arrayBeep[3] === 3){
-//     let index2 = arrayBeep.indexOf(3")
-//     arrayBeep[index2] = "won't you be my neighbor?"
-//   }
-// if (arrayBeep[2] === 2){
-//   const index1 = arrayBeep.indexOf(2)
-//   arrayBeep[index1] = "boop!"
-// }
-// if (arrayBeep[1] === 1){
-//   const index = arrayBeep.indexOf(1)
-//   arrayBeep[index] = "beep!"
-// }
-  const final = arrayBeep.toString();
-  return final;     
-}
+        if ((i + " ").indexOf("3") !== -1) {
+          arrayBeep[i] = "won't you be my neighbor?"
+        // all elements are now the above!  
+        } else if ((i + " ").indexOf("2")) {
+           arrayBeep[i] = "boop!"
+        } else if ((i + " ").indexOf("1")){
+          arrayBeep[i] = "beep!"
+        } else {
 
+        }
+    }
+  const final = arrayBeep.toString();
+  return final; 
+  }
+}  
 
 // UI Logic
 
@@ -47,7 +36,23 @@ $(document).ready(function() {
     $("#output").text(beep);
   });
 });
+  
+  
 
 
 
 
+
+
+// if (arrayBeep[3] === 3){
+  //     let index2 = arrayBeep.indexOf(3")
+  //     arrayBeep[index2] = "won't you be my neighbor?"
+  //   }
+  // if (arrayBeep[2] === 2){
+  //   const index1 = arrayBeep.indexOf(2)
+  //   arrayBeep[index1] = "boop!"
+  // }
+  // if (arrayBeep[1] === 1){
+  //   const index = arrayBeep.indexOf(1)
+  //   arrayBeep[index] = "beep!"
+  // }
